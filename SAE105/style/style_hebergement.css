@@ -1,0 +1,331 @@
+/* Import des polices */
+
+@font-face {
+    font-family: 'Courgette';
+    src: url('../fonts/courgette-regular-webfont.woff2') format('woff2'),
+        url('../fonts/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Police 'Noto Serif' */
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/notoserif-medium-webfont.woff') format('woff'),
+        url('../fonts/notoserif-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Police 'Noto Sans' */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/notosans-medium-webfont.woff') format('woff'),
+        url('../fonts/notosans-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*****************************/
+/* Definitions générales     */
+/*****************************/
+
+nav {
+    background: rgba(217, 217, 217, 0.9);
+    border-radius: 15px;
+}
+
+body {
+    font-family: "Noto serif", "Noto sans", serif;
+    background: url(../img/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*****************************/
+/*           HEADER          */
+/*****************************/
+
+header img {
+    margin-left: 40%;
+    width: 273px;
+    height: 232px;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+/*****************************/
+/*    BARRE DE NAVIGATIONS   */
+/*****************************/
+
+nav img {
+    display: none;
+}
+
+nav #navgroup {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div#navgroup>ul {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul>li {
+    width: 100%;
+    height: 55px;
+
+    background: #17FFC9;
+    border-radius: 15px;
+
+    font-family: 'Courgette';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+
+
+}
+
+/*****************************/
+/*            MAIN           */
+/*****************************/
+
+main>div {
+    background: rgba(9, 151, 189, 0.7);
+    border-radius: 15px;
+    margin-left: 22%;
+    margin-top: 1%;
+    width: 56%;
+}
+
+main>div>div {
+    padding: 1em 2em;
+}
+
+main div>div>div {
+    display: flex;
+
+}
+
+/* Permet au image de se positionée en colonne quand l'écran n'est pas assez large */
+@media screen and (max-width: 1440px ) {
+    main div>div>div {
+        flex-direction: column;
+    }
+}
+
+main h1,
+main li,
+main p {
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+main p,
+main li {
+    font-size: 1.3em
+}
+
+main h1 {
+    font-size: 2.3em;
+}
+
+main li {
+    list-style: none;
+}
+
+main figcaption,figure {
+    width: fit-content;
+}
+
+main img {
+    width: 320px;
+}
+
+main iframe {
+    margin-left: 15%;
+    width: 70%;
+    height: 640px;
+}
+
+/* Breaking point pour réduire la taille de la carte intéractive */
+@media screen and (max-width: 1100px) {
+    main iframe {
+        height: 320px;
+    }
+}
+
+/*****************************/
+/* Definition des Classes    */
+/*****************************/
+
+.hide {
+    display: none;
+}
+
+.reserver {
+    background: #0C5EED;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu:hover {
+    cursor:pointer;
+}
+
+/* Media queries pour l'affichage sur mobile */
+@media screen and (max-width: 640px) {
+
+    /*****************************/
+    /* Definitions générales     */
+    /*****************************/
+
+
+    header {
+        width: 20%;
+        height: 100vh;
+        position: fixed;
+    }
+
+    body>div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*****************************/
+    /*           HEADER          */
+    /*****************************/
+
+
+    header img {
+        display: none;
+    }
+
+    /*****************************/
+    /*    BARRE DE NAVIGATIONS   */
+    /*****************************/
+
+    nav {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    nav>div#menuTel {
+        height: 6.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    div#menuTel:hover {
+        cursor:pointer;
+    }
+
+    nav img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    nav div#navgroup {
+        display: none
+    }
+
+    header.expend div#navgroup{ 
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    header.expend div#navgroup>ul {
+        margin: 10%;
+        padding: 0;
+        width: 75%;
+    }
+    
+    nav ul>li {
+        height: 10%;
+        width: 100%;
+        font-size: .7em;
+        line-height: 30px;
+    }
+
+    /*****************************/
+    /*            MAIN           */
+    /*****************************/
+
+    main>div {
+        background-color: transparent;
+        margin-left: 22%;
+        margin-top: 1%;
+        width: auto;
+    }
+
+    main>div>div {
+        border-radius: 15px;
+        background: rgba(9, 151, 189, 0.7);
+        margin-top: 5%;
+        padding: 1em 2em;
+    }
+
+    main h1 {
+        font-size: 1.0em;
+    }
+
+    main p,
+    main li {
+        font-size: 1em
+    }
+
+    main iframe {
+        height: 15%;
+        width: 100%;
+        margin: auto;
+    }
+
+    main figure {
+        display: none;
+    }
+
+
+
+    /*****************************/
+    /* Definition des Classes    */
+    /*****************************/
+    .BarreBleue {
+        width: 100%;
+        height: 25%;
+        background: #0C5EED;
+        border-radius: 15px;
+        margin: 1% 0;
+    }
+
+    .expend {
+        width: 25%;
+    }
+}
