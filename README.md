@@ -8,7 +8,7 @@ Vous y trouverez :
 
 * [SAE 103 "Préparer un envirronnement de dévellopement"](#sae-103)
 
-* [SAE 105 "Receuil des besoins"](#sae-105)
+* [ :surfer: SAE 105 "Receuil des besoins"](#sae-105)
 
 # SAE 101
 
@@ -41,7 +41,7 @@ Les fichiers LISEZMOI* sont la documentation des scripts
 
 ---
 
-# SAE 105
+# :surfer: SAE 105
 
 Page "hébergement détaillé" du site internet vitrine de l'association sportive fictive SportKoh
 
