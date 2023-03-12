@@ -1,36 +1,13 @@
+# SAE 103
+
+Ce projet avait l'objectif d'automatiser la création de fichier PDF à partir de fichier source texte et d'image à l'aide de Docker et de scripts PHP et Bash
+
+La documentation des scripts individuelle est contenue dans les fichier LISEZMOI_X.txt dans le dossier [LISEZMOI](./LISEZMOI/)
+Le fichier LISEZMOIFINAL contient la description du script général
+
+Le script est inutilisable en tant que tel car il dépend d'image Docker indisponible en dehors de mon IUT mais aussi que les fichier texte source sois formatée de manière spécifique
 
 
-Prérequis :
- - Docker sur Linux
- - L'image sae103-html2pdf,sae103-qrcode,sae103-imagick,sae103-php
- - Bash
+## Auteur
 
-Preparez un dossier contenant les fichiers texte source et les images source dans un sous-dossier ./img/* et les logo dans ./logo/*.
-Le nom des fichier texte source ne doivent pas contenir d'espace ou il sera impossible de générer un pdf correspondant
-Extrayez les fichier contenu dans SAE103.tar.gz dans ce dossier.
-Enfin assurez vous d'avoir les droits d'exécution sur les fichiers .sh (chmod +x *.sh sinon).
-lançez le script en lui passant en paramètre le chemin relatif vers les fichier texte.
-Par exemple :
-./PDFgen.sh . si ils sont dans le dossier courant.
-Les pdf son généré dans ./pdf/* puis ce dossier est archiver et compressé dans resultat.tar.
-vous retrouverez la documentation individuelle des scripts dans ./LISEZMOI/*
-
-
-<!--
-Documentation final de notre SAE 1.03
-
-Prérequis :
- - Docker
- - L'image sae103-html2pdf,sae103-qrcode,sae103-imagick,sae103-php
- - Bash
-
-Preparez un dossier contenant les fichiers texte source et les images source dans un sous-dossier ./img/* et les logo dans ./logo/*.
-Le nom des fichier texte source ne doivent pas contenir d'espace ou il sera impossible de générer un pdf correspondant
-Extrayez les fichier contenu dans SAE103.tar.gz dans ce dossier.
-Enfin assurez vous d'avoir les droits d'exécution sur les fichiers .sh (chmod +x *.sh sinon).
-lançez le script en lui passant en paramètre le chemin relatif vers les fichier texte.
-Par exemple :
-./PDFgen.sh . si ils sont dans le dossier courant.
-Les pdf son généré dans ./pdf/* puis ce dossier est archiver et compressé dans resultat.tar.gz 
-
--->
+- [@MrIdez](https://www.github.com/MrIdez)
