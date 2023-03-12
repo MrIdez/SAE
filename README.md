@@ -20,7 +20,7 @@ Ce projet à été réalisé en première année de Bachelor Universitaire de Te
 
 Voici une brèves description des tâches réalisée dans ce projet par ordre chronologique
 * Réflexion sur l'algorithme
-* Implèmentation de l'algorithme en [pseudo-code](pseudocode.md)  
+* Implémentation de l'algorithme en [pseudo-code](pseudocode.md)  
 * Mise en place d"'un cahier de test unitaires
 * implémentation de l'algorithme en C
 
@@ -30,16 +30,18 @@ Le code source en C ce situe dans [puissance4.c](puissance4.c).
 ## Génération de la documentation
 il est possible de généré sa documentation avec l'outil Doxygen.
 
----
+— 
 
 # SAE 103
 
-Ce rpojet avait l'objectif d'automatiser la création de fichier PDF à partir de fichier source texte et d'image à l'aide de Docker et de scripts PHP et Bash
+Ce projet avait l'objectif d'automatiser la création de fichier PDF à partir de fichier source texte et d'image à l'aide de Docker et de scripts PHP et Bash
 
+La documentation des scripts individuelle est contenue dans les fichier LISEZMOI_X.txt dans le dossier LISEZMOI
+Le fichier LISEZMOIFINAL contient la description du script général
 
-Les fichiers LISEZMOI* sont la documentation des scripts
+Le script est inutilisable en tant que tel car il dépend d'image Docker indisponible en dehors de mon IUT mais aussi que les fichier texte source sois formatée de manière spécifique
 
----
+— 
 
 # :surfer: SAE 105
 
@@ -50,6 +52,4 @@ Cette page a été réalisée dans le cadre du projet "SAE 105 Receuil des besoi
 
 ## Auteur
 
-👤 **Guillaume BARON**
-
-* Github: [@MrIdez](https://github.com/MrIdez)
+- [@MrIdez](https://www.github.com/MrIdez)
