@@ -1,14 +1,14 @@
 # Bienvenue 👋
 
-Ce depôt rassemble mes situations d'apprentissage évaluée  
+Ce dépôt rassemble mes situations d'apprentissage évaluée  
 
 Vous y trouverez :
 
-* [SAE 101 "implémentation d'un besoins client"](#sae-101)
+* [SAE 101 "implémentation d'un besoin client"](#sae-101)
 
-* [SAE 103 "Préparer un envirronnement de dévellopement"](#sae-103)
+* [SAE 103 "Préparer un environnement de développement"](#sae-103)
 
-* [ :surfer: SAE 105 "Receuil des besoins"](#sae-105)
+* [ :surfer: SAE 105 "Recueils des besoins"](#sae-105)
 
 # SAE 101
 
@@ -18,7 +18,7 @@ Ce projet à été réalisé en première année de Bachelor Universitaire de Te
 
 ## Description
 
-Voici une brèves description des tâches réalisée dans ce projet par ordre chronologique
+Voici une brève description des tâches réalisée dans ce projet par ordre chronologique
 * Réflexion sur l'algorithme
 * Implémentation de l'algorithme en [pseudo-code](pseudocode.md)  
 * Mise en place d"'un cahier de test unitaires
@@ -28,7 +28,7 @@ Le code source en C ce situe dans [puissance4.c](puissance4.c).
 
 
 ## Génération de la documentation
-il est possible de généré sa documentation avec l'outil Doxygen.
+il est possible de générer sa documentation avec l'outil Doxygen.
 
 — 
 
@@ -39,7 +39,7 @@ Ce projet avait l'objectif d'automatiser la création de fichier PDF à partir d
 La documentation des scripts individuelle est contenue dans les fichier LISEZMOI_X.txt dans le dossier [LISEZMOI](./SAE103/LISEZMOI/)
 Le fichier LISEZMOIFINAL contient la description du script général
 
-Le script est inutilisable en tant que tel car il dépend d'image Docker indisponible en dehors de mon IUT mais aussi que les fichier texte source sois formatée de manière spécifique
+Le script est inutilisable en tant que tel, car il dépend d'image Docker indisponible en dehors de mon IUT mais aussi que les fichiers texte source sois formatée de manière spécifique
 
 — 
 
