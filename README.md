@@ -49,6 +49,9 @@ Page "hébergement détaillé" du site internet vitrine de l'association sportiv
 
 Cette page a été réalisée dans le cadre du projet "SAE 105 Receuil des besoins" lors du premier semestre de mon Bachelor Universitaire de Technologie
 
+## Licence 
+
+Ce dépôt est sous licence MIT voir le fichier [LICENCE](LICENCE) pour plus de détails
 
 ## Auteur
 
