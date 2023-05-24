@@ -41,7 +41,15 @@ Le fichier LISEZMOIFINAL contient la description du script général
 
 Le script est inutilisable en tant que tel, car il dépend d'image Docker indisponible en dehors de mon IUT mais aussi que les fichiers texte source sois formatée de manière spécifique
 
-— 
+—
+
+# SAE 104
+
+Ce projets avais pour but l'implementation en modèle relationnel SQL d'un diagrame de classe UML
+
+Cependant cette implementation est incomplete car j'étais debutant dans l'exercice.
+
+—
 
 # :surfer: SAE 105
 
